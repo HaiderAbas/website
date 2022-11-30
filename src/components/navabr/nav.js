@@ -24,7 +24,7 @@ function Nav() {
           </div>
         </ul>
         <div onClick={handlenav} className="block md:hidden">
-          {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+          {!nav ? <AiOutlineMenu size={20} /> : <AiOutlineClose size={20} />}
         </div>
         <div
           className={
