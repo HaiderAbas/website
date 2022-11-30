@@ -10,7 +10,9 @@ function Footer() {
   return (
     <div className="mx-w-[1240px] mx-auto py-16 px-4 bg-black grid lg:grid-cols-3 gap-8 text-gray-300">
       <div>
-        <h1 className="w-full text-3xl font-bold text-[#00df9a]">Dot.</h1>
+        <h1 className="w-full text-3xl font-bold text-[#00df9a]">
+          North Aims
+        </h1>
         <p className="py-4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et
           justo vulputate, venenatis arcu nec, consectetur quam.
