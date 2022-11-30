@@ -17,8 +17,12 @@ function Nav() {
           <li className="p-4">Compeny</li>
           <li className="p-4">Resources</li>
           <li className="p-4">Account </li>
+          <div>
+            <button className="bg-[#00df9a] w-[200px] rounded-md font-medium ml-4 my-2 px-4 mx-auto py-2 text-black">
+              Get Started
+            </button>
+          </div>
         </ul>
-        <button className="bg-[#00df9a] w-[200px] rounded-md  font-medium ml-10 my-4 mx-auto py-2 text-black">Get Started</button>
         <div onClick={handlenav} className="block md:hidden">
           {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
         </div>
