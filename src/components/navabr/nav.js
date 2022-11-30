@@ -16,15 +16,16 @@ function Nav() {
           <li className="p-4">Home</li>
           <li className="p-4">Compeny</li>
           <li className="p-4">Resources</li>
-          <li className="p-4">About </li>
-          <li className="p-4">Contact</li>
+          <li className="p-4">Account </li>
+          <li className="p-4">Sign In</li>
         </ul>
+        <button className="bg-[#00df9a] w-[200px] rounded-md  font-medium ml-4 my-4 mx-auto py-2 text-black">Get Started</button>
         <div onClick={handlenav} className="block md:hidden">
           {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
         </div>
         <div
           className={
-            !nav
+            nav
               ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500"
               : "fixed left-[-100%]"
           }
