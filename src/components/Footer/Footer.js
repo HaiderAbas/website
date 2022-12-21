@@ -27,7 +27,7 @@ function Footer() {
       </div>
       <div className="lg:col-span-2 w-full flex justify-between">
         <div>
-          <h6 className="font-medium text-gray-400 text-xl font-bold">
+          <h6 className=" text-gray-400 text-xl font-bold">
             Solutions
           </h6>
           <ul>
@@ -38,7 +38,7 @@ function Footer() {
           </ul>
         </div>
         <div>
-          <h6 className="font-medium text-gray-400 text-xl font-bold">
+          <h6 className=" text-gray-400 text-xl font-bold">
             Support
           </h6>
           <ul>
@@ -49,7 +49,7 @@ function Footer() {
           </ul>
         </div>
         <div>
-          <h6 className="font-medium text-gray-400 text-xl font-bold">
+          <h6 className=" text-gray-400 text-xl font-bold">
             Company
           </h6>
           <ul>
@@ -61,7 +61,7 @@ function Footer() {
           </ul>
         </div>
         <div>
-          <h6 className="font-medium text-gray-400 text-xl font-bold">Legal</h6>
+          <h6 className=" text-gray-400 text-xl font-bold">Legal</h6>
           <ul>
             <li className="py-2 text-sm">Claim</li>
             <li className="py-2 text-sm">Polices</li>
