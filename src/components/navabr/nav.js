@@ -9,7 +9,7 @@ function Nav() {
   return (
     <>
       <div className="flex justify-between items-center h-24 max-w-[1240px] text-white mx-auto px-2 ">
-        <h1 className="w-full text-3xl font-bold  font-bold text-[#00df9a]">
+        <h1 className="w-full text-3xl   font-bold text-[#00df9a]">
           North Aims
         </h1>
         <ul className="md:flex hidden">
@@ -33,7 +33,7 @@ function Nav() {
               : "fixed left-[-100%]"
           }
         >
-          <h1 className="w-full text-3xl font-bold font-bold text-[#00df9a] mt-5 ml-3">
+          <h1 className="w-full text-3xl  font-bold text-[#00df9a] mt-5 ml-3">
             North Aims
           </h1>
           <ul className="uppercase pt-8 text-white ">
